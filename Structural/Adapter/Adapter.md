@@ -1,3 +1,4 @@
+# Adapter
 <b>Summary:</b>
 
 Allows objects with incompatible interfaces to collaborate.
