@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDemo", "DecoratorDemo.csproj", "{CC4E97DF-56F0-42C3-8B50-95F72D78C91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyLibrary", "..\ThirdPartyLibrary\ThirdPartyLibrary.csproj", "{B8AC0603-4DCB-4BAF-9AA1-E48C6C610094}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4E97DF-56F0-42C3-8B50-95F72D78C91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4E97DF-56F0-42C3-8B50-95F72D78C91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4E97DF-56F0-42C3-8B50-95F72D78C91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4E97DF-56F0-42C3-8B50-95F72D78C91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AC0603-4DCB-4BAF-9AA1-E48C6C610094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AC0603-4DCB-4BAF-9AA1-E48C6C610094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AC0603-4DCB-4BAF-9AA1-E48C6C610094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AC0603-4DCB-4BAF-9AA1-E48C6C610094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66C85817-EC16-4904-89B1-9460937671B5}
+	EndGlobalSection
+EndGlobal
