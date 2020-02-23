@@ -3,10 +3,7 @@
 namespace SingletonDemo.Implementations
 {
     public sealed class SingletonA
-    {
-        //alternative explicit eager implementation, thread-safe
-        //private readonly static SingletonA instance = new SingletonA();
-        
+    {     
         private static SingletonA instance;
 
         private SingletonA() { }
