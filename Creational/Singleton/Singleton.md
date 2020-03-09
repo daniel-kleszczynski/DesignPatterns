@@ -47,8 +47,7 @@ B) Thread-safe with lock
 
 C) Static initialization
 
-Read-only instance of a singleton class is created by type initializer when lazy loading nested class
-(It guarantees only one instance even with multi-threading)
+Read-only instance of a singleton class is created lazily by a type initializer (It guarantees only one instance even with multi-threading)
 
 D) Lazy<T>
 
