@@ -4,7 +4,7 @@ namespace ChainOfResponsibilityDemo.Handlers
 {
     public interface IHandler
     {
-        void Handle(BusinessData businessData);
+        ResponseStatus Process(BusinessData businessData);
         void SetNext(IHandler nextHandler);
     }
 }

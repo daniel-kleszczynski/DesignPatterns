@@ -31,6 +31,7 @@ namespace ChainOfResponsibilityDemo
                 AddNextLink(type);
             }
 
+            currentLink.SetNext(EndOfChainHandler.Instance);
             return firstLink;
         }
 

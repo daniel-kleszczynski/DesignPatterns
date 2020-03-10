@@ -45,11 +45,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChainBuilder.cs" />
+    <Compile Include="Handlers\EndOfChainHandler.cs" />
     <Compile Include="Handlers\HandlerB.cs" />
     <Compile Include="Handlers\HandlerA.cs" />
     <Compile Include="Handlers\HandlerC.cs" />
     <Compile Include="Handlers\IHandler.cs" />
     <Compile Include="Models\BusinessData.cs" />
+    <Compile Include="Models\ResponseStatus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

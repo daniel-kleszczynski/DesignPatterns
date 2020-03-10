@@ -7,25 +7,28 @@ namespace ChainOfResponsibilityDemo.Handlers
     {
         private IHandler nextHandler;
 
-        public void Handle(BusinessData businessData)
+        public ResponseStatus Process(BusinessData businessData)
         {
             if (businessData == null)
-            {
-                Console.WriteLine($"{nameof(businessData)} is null.");
-                return;
-            }
+                return ResponseStatus.NullData;
 
-            if (businessData.IsB)
+            if (businessData.IsC)
+            {
                 Console.WriteLine($"{nameof(HandlerC)} is processing ...");
+                return ResponseStatus.Processed;
+            }
             else
             {
                 if (nextHandler != null)
                 {
                     Console.WriteLine($"{nameof(HandlerC)} is passing to the next handler.");
-                    nextHandler.Handle(businessData);
+                    return nextHandler.Process(businessData);
                 }
                 else
+                {
                     Console.WriteLine($"{nameof(HandlerC)} is terminating.");
+                    return ResponseStatus.Unhandled;
+                }
             }
         }
 
