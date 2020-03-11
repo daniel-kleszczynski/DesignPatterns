@@ -9,3 +9,7 @@
 
 * [Adapter](Structural/Adapter/Adapter.md)
 * [Decorator](Structural/Decorator/Decorator.md)
+
+<b>Behavioral</b>
+
+* [Chain of responsibility](Behavioral/ChainOfResponsibility/ChainOfResponsibility.md)
