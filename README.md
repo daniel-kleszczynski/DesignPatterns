@@ -13,3 +13,4 @@
 <b>Behavioral</b>
 
 * [Chain of responsibility](Behavioral/ChainOfResponsibility/ChainOfResponsibility.md)
+* [Command](Behavioral/Command/Command.md)
