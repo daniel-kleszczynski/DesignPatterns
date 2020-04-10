@@ -14,3 +14,4 @@
 
 * [Chain of responsibility](Behavioral/ChainOfResponsibility/ChainOfResponsibility.md)
 * [Command](Behavioral/Command/Command.md)
+* [Observer](Behavioral/Observer/Observer.md)
