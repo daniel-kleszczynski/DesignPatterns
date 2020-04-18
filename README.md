@@ -17,3 +17,4 @@
 * [Command](Behavioral/Command/Command.md)
 * [Observer](Behavioral/Observer/Observer.md)
 * [Strategy](Behavioral/Strategy/Strategy.md)
+* [Template method](Behavioral/TemplateMethod/TemplateMethod.md)
