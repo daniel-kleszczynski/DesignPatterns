@@ -2,6 +2,7 @@
 
 <b>Creational</b>
 
+* [Builder](Creational/Builder/Builder.md)
 * [Factories](Creational/Factories/Factories.md)
 * [Prototype](Creational/Prototype/Prototype.md)
 * [Singleton](Creational/Singleton/Singleton.md)
