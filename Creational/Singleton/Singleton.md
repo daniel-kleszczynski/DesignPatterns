@@ -21,7 +21,7 @@ Access to a certain resource needs to be exclusive (also thread-safe) and possib
 * Harder to debug.
   (It is easier to analyze the code when there is a clearly defined input data)
   
-Tight coupling and violation of SRP can be fixed by IoC container which injects a singleton object as a parameter. In order to prevent a global access to a singleton you can nest it inside some kind of a factory which will be responsible for its lifecycle management.
+Tight coupling and violation of SRP can be fixed by an IoC container which injects the same single instance for all calls. In this case Singleton design pattern is uneccessary and I consider it an anti-pattern. 
 
 <b>How does it work</b>
 
